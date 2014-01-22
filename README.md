@@ -6,6 +6,8 @@ I ran into an `Error: spawn EMFILE` when trying to call exec too many times
 loop without creating too many child processes.
 
 ##Usage
+`npm install exec-queue`
+
 ```javascript
 var exec = require('exec-queue');
 for (var i = 0; i < 100; ++i) {
