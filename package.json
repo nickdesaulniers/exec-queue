@@ -16,5 +16,6 @@
     "limit"
   ],
   "author": "Nick Desaulniers",
-  "license": "Beerware"
+  "license": "Beerware",
+  "repository": "https://github.com/nickdesaulniers/exec-queue.git"
 }
