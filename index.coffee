@@ -3,7 +3,7 @@ exec = require('child_process').exec
 queue = []
 
 nextInLine = ->
-  console.log 'queue length: ', queue.length
+  #console.log 'queue length: ', queue.length
   if queue.length > 0
     exec.apply null, queue.shift()
 
